@@ -35,7 +35,7 @@ const getFormData = e => {
         try {
             const res = await axios.post(`${url}`,data);
             alert(`Usuari creat correctament!`)
-            console.log(res);
+            window.location.href = "index.html";
         } catch (error) {
             popAlert("No s'ha pogut crear l'usuari correctament");
         }

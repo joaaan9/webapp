@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100;
+}
+
+.carousel-item {
+    max-height: 490px;
+}
+
+.text {
+    font-family: 'Helvetica';
+}

@@ -27,6 +27,7 @@ const getFormData = e => {
         if (response[0].pwd != form["signin-pwd"].value) popAlert("La combinació de contrassenya i usuari no és correcta");
         else {
             alert(`Bienvenid@ ${mail}`);
+            window.location.href = "index.html";
         }
     }
 
